@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "kong-upstream-jwt"
-version = "0.3-3"
+version = "0.3-4"
 -- LuaDist source
 source = {
-  tag = "0.3-3",
+  tag = "0.3-4",
   url = "git://github.com/LuaDist-testing/kong-upstream-jwt.git"
 }
 -- Original source
