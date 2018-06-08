@@ -1,8 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "kong-upstream-jwt"
 version = "0.4-4"
+-- LuaDist source
 source = {
-   url = "git+https://github.com/Optum/kong-upstream-jwt.git"
+  tag = "0.4-4",
+  url = "git://github.com/LuaDist-testing/kong-upstream-jwt.git"
 }
+-- Original source
+-- source = {
+--    url = "git+https://github.com/Optum/kong-upstream-jwt.git"
+-- }
 description = {
    summary = "A plugin for Kong which adds a signed JWT to HTTP Headers of outgoing requests",
    detailed = [[API Providers require a means of cryptographically validating that requests they receive were: A. proxied by Kong, and B. not tampered with during transmission from Kong -> API Provider. This token accomplishes both as follows:
